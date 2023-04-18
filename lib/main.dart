@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:retinol/mychart.dart';
+import 'package:retinol/page/detailchat.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       // theme: ThemeData(
       //   primarySwatch: Colors.,
       // ),
-      home: MyHomePage(),
+      home: ChatPage(),
     );
   }
 }
